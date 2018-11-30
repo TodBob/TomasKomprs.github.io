@@ -1,0 +1,17 @@
+@function per-line($items) {
+    $g-pct: px-to-pc($gutter) * 2;
+    $g-total: $items * $g-pct;
+    @return (100% / $items) - $g-total;
+}
+
+@media (min-width: $break-s) {
+    .card {
+        flex: 1 per-line(2);
+    }
+}
+
+@media (min-width: $break-l) {
+    .card {
+        flex-basis: per-line(3);
+    }
+}

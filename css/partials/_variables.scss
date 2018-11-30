@@ -1,0 +1,32 @@
+// VARIABLES
+
+$font-primary: 'Muli',
+sans-serif;
+$font-secondary: 'Dancing Script',
+cursive;
+
+$white: #fff;
+
+$color-nav-scroll: #3acec2;
+$color-gradient: #3acec200;
+$color-gradient2: #009fe15e;
+$color-border-hover: #ffffff52;
+$color-hover: #f05f40;
+$color-text: #343434;
+
+$max-width: 1000px;
+
+//BreakPoints
+$break-xs: 575px;
+$break-sm: 576px;
+$break-md: 768px;
+$break-lg: 992px;
+$break-xl: 1140px;
+
+$breakpoints: (
+xs: 575px,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1140px,
+);

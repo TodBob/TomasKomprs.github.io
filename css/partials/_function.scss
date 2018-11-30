@@ -1,0 +1,36 @@
+
+/*  Function px to %   */
+/*
+@function px-to-pc($target, $context: $max-width) {
+    @return (@target / @context) * 100%;
+}
+
+
+
+.test {
+    width: px-to-pc(400px);
+}
+*/
+
+
+/*
+.test {
+  width: px-to-pc(400px, 1200px);
+};
+*/  
+
+/*  Function px to rem   */
+/*
+$base-font-size: 16px;
+
+// Write your function here
+@function px-to-rem($target, $context: $base-font-size) {
+    @return ($target / $context) * 1rem;
+}
+
+;
+
+h1 {
+    font-size: px-to-rem(60px);
+}
+*/

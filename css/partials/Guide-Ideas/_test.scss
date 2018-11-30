@@ -1,0 +1,16 @@
+$base: rgb(207, 96, 96);
+$base-darker: darken($base, 25%);
+$base-lighter: lighten($base, 25%);
+
+$complement: complement($base);
+
+
+/*
+ &:hover {
+     color: rgba($color-accent, 0.7);
+ }
+*/
+
+
+
+
