@@ -164,8 +164,8 @@ nav a {
 /*     HEADER      */
 header {
   height: 460px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#009fe15e), to(#3acec200)), url("../img/7.jpg");
-  background: linear-gradient(#009fe15e, #3acec200), url("../img/7.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(#009fe15e), to(#3acec200)), url("../img/bg.jpg");
+  background: linear-gradient(#009fe15e, #3acec200), url("../img/bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
