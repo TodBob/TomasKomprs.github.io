@@ -1,0 +1,12 @@
+
+#about {
+    @media (max-width: $break-xs) {
+         padding-top: 80px;
+    }
+}
+
+section {
+        @media (max-width: $break-xs) {
+            padding: 80px;
+        }
+}

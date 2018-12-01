@@ -59,6 +59,12 @@ body {
   font-size: 1.1rem;
 }
 
+@media (max-width: 575px) {
+  body {
+    text-align: center;
+  }
+}
+
 h1,
 h2,
 h3 {
@@ -86,11 +92,11 @@ hr {
 }
 
 section {
-  padding: 150px 0;
+  padding: 130px 0;
 }
 
 @media (max-width: 575px) {
-  .section-body {
+  .body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -236,6 +242,18 @@ h1 {
   }
 }
 
+@media (max-width: 575px) {
+  #about {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 575px) {
+  section {
+    padding: 80px;
+  }
+}
+
 .card {
   -webkit-box-shadow: 9px -7px 9px 0px #00000075;
           box-shadow: 9px -7px 9px 0px #00000075;
@@ -260,6 +278,10 @@ h1 {
 
 .contact:hover {
   font-size: 1.6rem;
+}
+
+.socialBr {
+  color: #f05f40;
 }
 
 /* JAVASCRIPT */
