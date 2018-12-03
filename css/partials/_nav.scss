@@ -25,8 +25,12 @@ nav {
     @media (max-width: 992px) {
         color: rgba(27, 26, 26, 0.5);
     }
+    @media (min-width: $break-lg) {
+        text-shadow: 1px 1px 7px black;
+
     }
-         
+    }
+
 
 }
 #navbarResponsive a {
@@ -39,19 +43,19 @@ nav {
 
 #home {
        @media (max-width: 992px) {
-           color: #f05f40 !important;
+           color: $color-hover !important;
        }
 }
 
 .navbar-light .navbar-brand  {
-  color: #f05f40 !important;
+  color: $color-hover !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(27, 26, 26, 0.5);
 }
 .navbar-light .navbar-nav .nav-link.active {
-    color: #f05f40 !important;
+    color: $color-hover !important;
 }
 
  #mainNav {
@@ -59,3 +63,7 @@ nav {
          background-color: #f8f9fa !important;
      }
  }
+
+ .bg-light a {
+    text-shadow: none !important;
+}

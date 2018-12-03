@@ -69,10 +69,11 @@ h1,
 h2,
 h3 {
   font-family: "Dancing Script", cursive;
+  font-weight: bold;
 }
 
 a {
-  color: gray;
+  color: grey;
   font-weight: bold;
 }
 
@@ -83,6 +84,12 @@ a:hover {
 
 ul {
   list-style: none;
+}
+
+@media (max-width: 575px) {
+  ul {
+    padding-left: 0;
+  }
 }
 
 hr {
@@ -139,6 +146,12 @@ nav a {
   }
 }
 
+@media (min-width: 992px) {
+  nav a {
+    text-shadow: 1px 1px 7px black;
+  }
+}
+
 #navbarResponsive a:hover {
   color: #f05f40;
 }
@@ -167,12 +180,15 @@ nav a {
   }
 }
 
+.bg-light a {
+  text-shadow: none !important;
+}
+
 /*     HEADER      */
 header {
   height: 460px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#009fe15e), to(#3acec200)), url("../img/bg.jpg");
-  background: linear-gradient(#009fe15e, #3acec200), url("../img/bg.jpg");
-  background-position: center;
+  background: url("../img/mikulov01.jpg");
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
@@ -205,24 +221,34 @@ header::after {
   }
 }
 
+header p {
+  width: 45%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 200;
+}
+
 .img-featured {
   width: 165px;
   height: 165px;
   border: 4px solid #fff;
   border-radius: 50%;
-  margin-top: -15px;
+  margin-top: 130px;
   position: relative;
   z-index: 100;
 }
 
 @media (max-width: 575px) {
   .img-featured {
-    display: none;
+    margin-top: 50px;
   }
 }
 
 h1 {
-  color: #fff;
+  color: #efefef;
   font-weight: bold;
   font-size: 4.8rem;
   letter-spacing: 5px;
@@ -239,18 +265,19 @@ h1 {
 @media (min-width: 992px) {
   nav a:hover {
     color: #f05f40;
+    text-shadow: none;
   }
 }
 
 @media (max-width: 575px) {
   #about {
-    padding-top: 80px;
+    padding-top: 250px;
   }
 }
 
 @media (max-width: 575px) {
   section {
-    padding: 80px;
+    padding: 80px 0;
   }
 }
 

@@ -3,8 +3,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 body {
     font-family: $font-primary;
     color: $color-text;
@@ -18,10 +16,11 @@ h1,
 h2,
 h3 {
     font-family: $font-secondary;
+    font-weight: bold;
 }
 
 a {
-    color: gray;
+    color: $grey;
     font-weight: bold;
     &:hover {
     color: $color-hover;
@@ -31,6 +30,9 @@ a {
 
 ul {
     list-style: none;
+    @media (max-width: $break-xs) {
+        padding-left: 0;
+    }
 }
 
 hr {
