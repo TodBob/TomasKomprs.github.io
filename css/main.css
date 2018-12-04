@@ -187,7 +187,8 @@ nav a {
 /*     HEADER      */
 header {
   height: 460px;
-  background: url("../img/mikulov01.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffa9495c), color-stop(90%, transparent)), url("../img/mikulov01.jpg");
+  background: linear-gradient(#ffa9495c, transparent 90%), url("../img/mikulov01.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -215,6 +216,12 @@ header::after {
   }
 }
 
+@media (max-width: 992px) {
+  header {
+    height: 400px;
+  }
+}
+
 @media (max-width: 575px) {
   header {
     height: 360px;
@@ -239,6 +246,12 @@ header p {
   margin-top: 130px;
   position: relative;
   z-index: 100;
+}
+
+@media (max-width: 992px) {
+  .img-featured {
+    margin-top: 90px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -289,6 +302,18 @@ h1 {
     }*/
 }
 
+.card-title {
+  margin-bottom: .75rem;
+  color: #f05f40;
+  font-weight: bold;
+}
+
+.projectP {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
 #contact {
   padding-bottom: 100px;
 }
@@ -327,4 +352,17 @@ h1 {
      color: rgba($color-accent, 0.7);
  }
 */
+.introP {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  width: 90%;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 4em;
+}
 /*# sourceMappingURL=main.css.map */
