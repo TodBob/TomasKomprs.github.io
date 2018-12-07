@@ -31,3 +31,25 @@ h1 {
 
 
 
+footer a {
+    @media (max-width: $break-xs) {
+        display: none;
+    }
+}
+footer p {
+    @media (max-width: $break-xs) {
+        text-align: center;
+    }
+}
+
+.test1 {
+    font-family: $font-secondary;
+    font-size: 1.2em;
+}
+
+#portfolio ul {
+    list-style-type: circle;
+    @media (max-width: $break-xs) {
+        list-style-type: none;
+    }
+}

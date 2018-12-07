@@ -189,7 +189,7 @@ header {
   height: 460px;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffa9495c), color-stop(90%, transparent)), url("../img/bg.jpg");
   background: linear-gradient(#ffa9495c, transparent 90%), url("../img/bg.jpg");
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
@@ -364,5 +364,32 @@ h1 {
   font-style: italic;
   font-weight: bold;
   font-size: 4em;
+}
+
+@media (max-width: 575px) {
+  footer a {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  footer p {
+    text-align: center;
+  }
+}
+
+.test1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.2em;
+}
+
+#portfolio ul {
+  list-style-type: circle;
+}
+
+@media (max-width: 575px) {
+  #portfolio ul {
+    list-style-type: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
