@@ -1,24 +1,18 @@
-/*     HEADER      */
+
 header {
     height: 460px;
-    background: linear-gradient(#ffa9495c, transparent 90%),
-    url('../img/bg.jpg'); 
+    background: linear-gradient(#ffa94991, #fff0),
+    url('../img/bg-mikulov.jpg'); 
     background: {
         position: center;
         size: cover;
         repeat: no-repeat;
     }   
-
-    ;
-    background-blend-mode: multiply;
     padding: 154px 0 100px;
 
-    @include skewed {
-        background-color: $white;
-        bottom: -25px;
+    & .container {
+        width: 100%;
     }
-
-    ;
 }
 
 header {
@@ -34,52 +28,37 @@ header {
         height: 360px;
     
     }
-    & p {
-        width: 45%;
-        margin: auto;
-        text-align: center;
-        margin-top: 10px;
-        font-size: 1.2rem;
-            position: relative;
-            z-index: 200;
-    }
 }
 
 
 .img-featured {
     @include roundy(165px, 4px solid $white);
-    margin-top: 130px; 
+    margin-top: 155px; 
     position: relative;
     z-index: 100;
     
     @media (max-width: $break-lg) {
+        margin-top: 105px;
+    }
+
+    @media (max-width: $break-xs) {
         margin-top: 90px;
     }
-
-    @media (max-width: $break-xs) {
-        margin-top: 50px;
-    }
 }
 
-
-h1 {
-    color: #efefef; //#ee9b72
-    font-weight: bold;
-    font-size: 4.8rem;
-    letter-spacing: 5px;
-    text-shadow: 2px 2px #6e9024; //#6e9024 #ff0000
-    
-    @media (max-width: $break-xs) {
-        font-size: 3.4em;
-        text-align: left;
+    .introP {
+        font-family:$font-secondary;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1.6em;
+        font-weight: bold;
     }
-}
-
 
 
 nav a:hover {
     @media (min-width: $break-lg) {
-        color: $color-hover;
-        text-shadow: none;
+        color: $color-hover; 
     }
 }

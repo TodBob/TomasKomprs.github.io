@@ -9,7 +9,7 @@
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: #f05f40 !important;
+    background-color: $color-hover !important;
     border: 1px solid transparent;
     border-radius: .25rem;
 }
@@ -23,10 +23,10 @@ nav {
     font-weight: bold;
     letter-spacing: 1.3px;
     @media (max-width: 992px) {
-        color: rgba(27, 26, 26, 0.5);
+        color:$base-nav-color;
     }
     @media (min-width: $break-lg) {
-        text-shadow: 1px 1px 7px black;
+        text-shadow: 1px 1px 10px $black;
 
     }
     }
@@ -52,7 +52,7 @@ nav {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(27, 26, 26, 0.5);
+    color: $base-nav-color;
 }
 .navbar-light .navbar-nav .nav-link.active {
     color: $color-hover !important;
@@ -60,7 +60,7 @@ nav {
 
  #mainNav {
      @media (max-width: 992px) {
-         background-color: #f8f9fa !important;
+         background-color: $mainNav-color !important;
      }
  }
 
