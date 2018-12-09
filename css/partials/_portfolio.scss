@@ -1,14 +1,10 @@
 .card  {
     box-shadow: 9px -7px 9px 0px #00000075;
-   /* &:hover {
-    background: linear-gradient($color-gradient2, $color-gradient)
-    }*/
-    
 }
 
 .card-title {
     margin-bottom: .75rem;
-    color: #f05f40;
+    color: $color-hover;
     font-weight: bold;
 }
 
@@ -18,5 +14,23 @@
     text-align: center;
 }
 
+#cards a {
+    color: $grey;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
 
+    &:hover {
+        color: $color-hover;
+        text-decoration: none;
+    }
+}
+
+#portfolio ul {
+    list-style-type: circle;
+
+    @media (max-width: $break-xs) {
+        list-style-type: none;
+    }
+}
 

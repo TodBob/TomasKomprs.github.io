@@ -20,10 +20,10 @@ h3 {
 }
 
 a {
-    color: $grey;
+    color: $color-hover;
     font-weight: bold;
     &:hover {
-    color: $color-hover;
+    color: $grey;
     text-decoration: none;
     }
 }
