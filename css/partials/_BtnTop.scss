@@ -1,0 +1,24 @@
+/* Solution from W3schools.com*/
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    bottom: 5px;
+    right: 3px;
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: $color-hover;
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 1px;
+    border-radius: 45%;
+    
+}
+
+#myBtn:hover {
+    background-color: $white;
+}
