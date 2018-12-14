@@ -3,8 +3,8 @@
     display: none;
     /* Hidden by default */
     position: fixed;
-    bottom: 5px;
-    right: 3px;
+    bottom: 25px;
+    right: 9px;
     z-index: 99;
     /* Make sure it does not overlap */
     border: none;
@@ -16,9 +16,8 @@
     /* Add a mouse pointer on hover */
     padding: 1px;
     border-radius: 45%;
-    
 }
 
-#myBtn:hover {
-    background-color: $white;
+#myBtn:hover{
+      transform: scale(1.1) rotate(3deg);
 }

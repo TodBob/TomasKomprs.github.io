@@ -299,8 +299,8 @@ header .container {
   display: none;
   /* Hidden by default */
   position: fixed;
-  bottom: 5px;
-  right: 3px;
+  bottom: 25px;
+  right: 9px;
   z-index: 99;
   /* Make sure it does not overlap */
   border: none;
@@ -315,7 +315,8 @@ header .container {
 }
 
 #myBtn:hover {
-  background-color: #fff;
+  -webkit-transform: scale(1.1) rotate(3deg);
+          transform: scale(1.1) rotate(3deg);
 }
 
 /* JAVASCRIPT */
