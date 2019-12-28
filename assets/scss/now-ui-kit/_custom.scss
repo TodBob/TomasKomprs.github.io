@@ -24,4 +24,32 @@
 
 .sluzby-tabs {
     font-size: 2rem;
-}   
+} 
+
+
+
+@media(max-width: 767px) {
+    .section-story-overview .image-container:nth-child(2) {
+    margin-top: 420px;
+    margin-left: 0;
+    margin-bottom: 50px;
+    }
+
+    .h3-text {
+        margin-top: 80px;
+    }
+}
+
+
+@media(max-width: 600px) {
+    .sluzby-tabs {
+    height: 50px !important;
+    width: 50px !important;
+} 
+
+.nav-pills-just-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
