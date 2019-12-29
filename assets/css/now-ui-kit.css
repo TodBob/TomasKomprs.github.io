@@ -5123,6 +5123,55 @@ img {
 .sluzby-tabs {
   font-size: 2rem; }
 
+/* Text for imgs */
+.bg-img-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: white;
+  background: #0000009e;
+  padding: 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 15px; }
+
+.img-text-container {
+  position: relative; }
+  .img-text-container h5 {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: white;
+    background: #0000009e;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 15px; }
+
+.kasny-red-text {
+  width: auto !important; }
+
+.servis-container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center; }
+  .servis-container .buderus-logo {
+    width: 60%;
+    margin: auto;
+    display: -webkit-box;
+    display: flex; }
+
+/* Responsive */
 @media (max-width: 767px) {
   .section-story-overview .image-container:nth-child(2) {
     margin-top: 420px;
