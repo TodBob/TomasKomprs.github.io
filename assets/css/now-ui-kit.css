@@ -5172,6 +5172,12 @@ img {
     display: flex; }
 
 /* Responsive */
+@media (max-width: 991px) {
+  .profile-page .title {
+    font-size: 2.5rem; }
+  .profile-page h4 {
+    font-size: 1.5rem !important; } }
+
 @media (max-width: 767px) {
   .section-story-overview .image-container:nth-child(2) {
     margin-top: 420px;
@@ -5190,6 +5196,28 @@ img {
     -webkit-box-pack: center;
             justify-content: center;
     -webkit-box-align: center;
-            align-items: center; } }
+            align-items: center; }
+  .profile-page .title {
+    font-size: 2rem; }
+  .viessman-logo {
+    width: 80%;
+    display: -webkit-box;
+    display: flex;
+    margin: auto; } }
+
+@media (max-width: 450px) {
+  .sidebar-collapse [class*="navbar-expand-"] .navbar-collapse {
+    width: 250px !important; }
+  .h3-text {
+    font-size: 1.5rem; } }
+
+@media (max-width: 450px) {
+  .brand .h1-seo {
+    font-size: 2rem !important; }
+  .brand .h3-seo {
+    font-size: 1.5rem !important; }
+  .brand .n-logo {
+    max-width: 80px !important;
+    margin-bottom: 30px !important; } }
 
 /*# sourceMappingURL=now-ui-kit.css.map */

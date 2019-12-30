@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.example.com/sitemap.xml
+User-agent: *
+Allow: /sluzby
+
+User-agent: *
+Allow: /kontakt.html
+
+Sitemap: https://www.vodotopo-mikulov.cz/sitemap.xml
