@@ -5171,6 +5171,12 @@ img {
     display: -webkit-box;
     display: flex; }
 
+.back-to-top {
+  width: 30%;
+  margin: auto;
+  font-size: 1rem;
+  white-space: nowrap; }
+
 /* Responsive */
 @media (max-width: 991px) {
   .profile-page .title {
