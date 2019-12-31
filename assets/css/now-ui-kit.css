@@ -5238,4 +5238,33 @@ img {
   .section-story-overview .fonaty-img-container .image-container:nth-child(2) {
     margin-top: 500px; } }
 
+/* Change headers imgs for mobile */
+@media (min-width: 501px) {
+  #header-img {
+    background-image: url("../imgs/homepage/header.jpg"); }
+  #voda-img {
+    background-image: url("../imgs/voda/vodo-header.jpg"); }
+  #fontany-img {
+    background-image: url("../imgs/fontany/fontana-header.jpg"); }
+  #upravna-img {
+    background-image: url("../imgs/upravna/upravna-header.jpg"); }
+  #servis-img {
+    background-image: url("../imgs/servis/servis-header.jpg"); }
+  #kontakt-img {
+    background-image: url("../imgs/contact.jpg"); } }
+
+@media (max-width: 500px) {
+  #header-img {
+    background-image: url("../imgs/mobile/homepage/header.jpg"); }
+  #voda-img {
+    background-image: url("../imgs/mobile/voda/vodo-header.jpg"); }
+  #fontany-img {
+    background-image: url("../imgs/mobile/fontany/fontana-header.jpg"); }
+  #upravna-img {
+    background-image: url("../imgs/mobile/upravna/upravna-header.jpg"); }
+  #servis-img {
+    background-image: url("../imgs/mobile/servis/servis-header.jpg"); }
+  #kontakt-img {
+    background-image: url("../imgs/mobile/contact.jpg"); } }
+
 /*# sourceMappingURL=now-ui-kit.css.map */
