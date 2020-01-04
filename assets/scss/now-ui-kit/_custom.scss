@@ -96,6 +96,48 @@
 }
 
 
+/* 404 page */
+#error_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+
+    #error_body {
+        p {
+            font-size: 1.4rem;
+        }
+
+        a {
+            font-size: 18px;
+        }
+    }
+
+
+    @media(max-width: 675px) {
+
+        #error_body {
+            .img-box {
+                flex-direction: column-reverse;
+                img {
+                    max-width: 200px;
+                }
+            }
+
+            p {
+                font-size: 1.2rem;
+                text-align: center;
+                margin: 30px 10px;
+            }
+
+            a {
+                font-size: 14px;
+            }
+        }
+        }
+
+}
+
 
 /* Responsive */
 
@@ -250,4 +292,13 @@
         background-image: url('../imgs/mobile/contact.jpg');
     } 
 }
+
+
+
+
+
+
+
+
+
 

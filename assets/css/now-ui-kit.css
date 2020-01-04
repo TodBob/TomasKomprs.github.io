@@ -5177,6 +5177,34 @@ img {
   font-size: 1rem;
   white-space: nowrap; }
 
+/* 404 page */
+#error_page {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  height: 100vh; }
+  #error_page #error_body p {
+    font-size: 1.4rem; }
+  #error_page #error_body a {
+    font-size: 18px; }
+  @media (max-width: 675px) {
+    #error_page #error_body .img-box {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+              flex-direction: column-reverse; }
+      #error_page #error_body .img-box img {
+        max-width: 200px; }
+    #error_page #error_body p {
+      font-size: 1.2rem;
+      text-align: center;
+      margin: 30px 10px; }
+    #error_page #error_body a {
+      font-size: 14px; } }
+
 /* Responsive */
 @media (max-width: 991px) {
   .profile-page .title {
